@@ -81,8 +81,9 @@ def get_event_details(id):
     """View the details of an event."""
 
     # TODO: Finish implementing this view function
-
-    return render_template('event-details.html')
+    event_info = results
+    print(event_info)
+    return render_template('event-details.html', )
 
 
 if __name__ == '__main__':
